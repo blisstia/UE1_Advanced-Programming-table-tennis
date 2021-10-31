@@ -48,6 +48,6 @@ https://drive.google.com/drive/folders/14szmzVKyERyuCk3bkHPh1rVtuXtgg4IM?usp=sha
 ## 2 extract images
 This stage2 is to extract all the images in the test video for subsequent detection, after running '2_extract_images.py' you will get 7484 images in the imges folder. 
 
-The limitation is that a lot of useless pictures will be intercepted, we are only use a small test video here, however if we want to realise all the machine learning process, We will need a lot of videos for mass crawling. Therefore, we provided the solution 1 to run the code by GBU If the computer environment is feasible, meanwhile, in ordre to optimise our exact method, We originally wanted to use the smooth lab method, but the optimization conditions are limited here and have not been completed for the time being.
+The limitation is that a lot of useless pictures will be intercepted, we are only use a small test video here, however if we want to realise all the machine learning process, We will need a lot of videos for mass crawling. Therefore, we provided the solution to run the code by GBU If the computer environment is feasible, meanwhile, in ordre to optimise our exact method, We originally wanted to use the smooth lab method, but the optimization conditions are limited here and have not been completed for the time being.
 
 
