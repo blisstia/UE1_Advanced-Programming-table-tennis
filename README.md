@@ -69,7 +69,7 @@ Therefore, we need to improve our project to improve these two problems.
 ## 2. extract images
 This stage2 is to extract all the images in the test video for subsequent detection, after running '2_extract_images.py' you will get 7484 images in the imges folder. 
 
-The limitation is that a lot of useless pictures will be intercepted, we are only use a small test video here, however if we want to realise all the machine learning process, We will need a lot of videos for mass crawling. Therefore, we provided the solution to run the code by GBU If the computer environment is feasible, meanwhile, in ordre to optimise our exact method, We originally wanted to use the smooth lab method, but the optimization conditions are limited here and have not been completed for the time being.
+The limitation is that a lot of useless pictures will be intercepted, we are only use a small test video here, however if we want to realise all the machine learning process, We will need a lot of videos for mass crawling. Therefore, we provided the solution to run the code by GBU If the computer environment is feasible. Meanwhile, in ordre to optimise our exact method, we originally wanted to use the smooth lab method, but the optimization conditions are limited here and have not been completed for the time being.
 
 ## 3. detect images
 Here we use the yolov5 model to achieve video detection, and when asked to identify different categories of items by the classfication in the model. 
@@ -89,7 +89,7 @@ We provided the code for making demo here (from detect images to video), please 
 As we said. yolov5 model regonise rarely the pingpong ball and we would like to train the yolo model to better recognize table tennis. However, We have encountered some difficulties with the original data of the training model. Hence, we assume that we can start part of the code with the labeled data, but it is not completed and is being continuously updated.
 
 '5_1_voc_lab.py' is to transfes xml data to txt for the labeled data,'5_2_train_test_spllit.py ' is to set training conditions.
-The problem here is still the manually marked file. Maybe lablimg(Software for manually identifying table tennis) is helpful here, however, due to the huge manual processing and marking work we've done it here temporarily
+The problem here is still the manually marked file. Maybe lablimg(Software for manually identifying table tennis) is helpful here, however, due to the huge manual processing and marking work we've done it here temporarily.
 
 
 
