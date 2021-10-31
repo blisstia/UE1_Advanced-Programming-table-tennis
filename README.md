@@ -45,12 +45,12 @@ link:
 https://drive.google.com/drive/folders/14szmzVKyERyuCk3bkHPh1rVtuXtgg4IM?usp=sharing
 
 
-## 2 extract images
+## 2. extract images
 This stage2 is to extract all the images in the test video for subsequent detection, after running '2_extract_images.py' you will get 7484 images in the imges folder. 
 
 The limitation is that a lot of useless pictures will be intercepted, we are only use a small test video here, however if we want to realise all the machine learning process, We will need a lot of videos for mass crawling. Therefore, we provided the solution to run the code by GBU If the computer environment is feasible, meanwhile, in ordre to optimise our exact method, We originally wanted to use the smooth lab method, but the optimization conditions are limited here and have not been completed for the time being.
 
-## 3 detect images
+## 3. detect images
 Here we use the yolov5 model to achieve video detection, and when asked to identify different categories of items by the classfication in the model. 
 
 '3_1_detect_all.py' is in the case of all recognition by using yolov5s model, we can see that it deteced all persons, ball(sometimes), racket and chair, etc.
