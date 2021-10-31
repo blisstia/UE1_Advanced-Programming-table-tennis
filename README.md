@@ -75,7 +75,7 @@ The limitation is that a lot of useless pictures will be intercepted, we are onl
 Here we use the yolov5 model to achieve video detection, and when asked to identify different categories of items by the classfication in the model. 
 
 '3_1_detect_all.py' is in the case of all recognition by using yolov5s model, we can see that it deteced all persons, ball(sometimes), racket and chair, etc.  
-                      ![image](https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo3.gif)
+ <p align="center">![image](https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo3.gif)</p>
 
 '3_2_detect_onlyball.py' is in the case of only detect the pingpong ball, but we can see that ping pong balls are recognized very rarely and yolov5 model could impove the recognsition if we'd like to optimise our detect results.
 
