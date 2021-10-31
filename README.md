@@ -54,7 +54,7 @@ Run the file ‘1_1_Color_tracking .py’ to see that, in the game environment, 
  
 ### Hough circle tracking
 Run the file ‘1_2_Hough circle tracking.py’ to see that, in the game environment, the method of Hough circle tracking is less precise and powerful comparing with the first way. Approximately 38% of the coordinates of the ball's position can be correctly detected, then we also record the coordinates of ball position and movement direction in each frame.
- ![image]( https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo2.gif)
+ ![image](https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo2.gif)
  
 ### Creation of database
 Run the file ‘1_3_Creation of database.py’ to create a database in the format of CSV to contain all the information that we’ve recorded above to facilitate our possible analysis.
@@ -75,7 +75,7 @@ The limitation is that a lot of useless pictures will be intercepted, we are onl
 Here we use the yolov5 model to achieve video detection, and when asked to identify different categories of items by the classfication in the model. 
 
 '3_1_detect_all.py' is in the case of all recognition by using yolov5s model, we can see that it deteced all persons, ball(sometimes), racket and chair, etc.
-
+ ![image](https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo3.gif)
 
 '3_2_detect_onlyball.py' is in the case of only detect the pingpong ball, but we can see that ping pong balls are recognized very rarely and yolov5 model could impove the recognsition if we'd like to optimise our detect results.
 
