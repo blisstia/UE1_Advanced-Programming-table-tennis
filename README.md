@@ -45,7 +45,7 @@ link:
 https://drive.google.com/drive/folders/14szmzVKyERyuCk3bkHPh1rVtuXtgg4IM?usp=sharing
 
 
-## 1. detection under Ideal condition
+## 1. detection under ideal condition
 This project started by realizing the tracking mission under ideal condition. We applied two basic methods to realize the detection of table tennis table and ball in the game environment.
 
 -Color tracking
