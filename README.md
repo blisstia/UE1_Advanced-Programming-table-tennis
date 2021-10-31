@@ -48,18 +48,18 @@ https://drive.google.com/drive/folders/14szmzVKyERyuCk3bkHPh1rVtuXtgg4IM?usp=sha
 ## 1. detection under ideal condition
 This project started by realizing the tracking mission under ideal condition. We applied two basic methods to realize the detection of table tennis table and ball in the game environment.
 
--Color tracking
+### Color tracking
 Run the file ‘1_1_Color_tracking .py’ to see that, in the game environment, color tracking can almost completely identify where are the ball and the table. At the same time, we record the coordinates of ball position and movement direction in each frame.
  ![image](https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo1.gif)
  
--Hough circle tracking
+### Hough circle tracking
 Run the file ‘1_2_Hough circle tracking.py’ to see that, in the game environment, the method of Hough circle tracking is less precise and powerful comparing with the first way. Approximately 38% of the coordinates of the ball's position can be correctly detected, then we also record the coordinates of ball position and movement direction in each frame.
  ![image]( https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo2.gif)
  
--Creation of database
+### Creation of database
 Run the file ‘1_3_Creation of database.py’ to create a database in the format of CSV to contain all the information that we’ve recorded above to facilitate our possible analysis.
 
--Adaptation to reality
+### Adaptation to reality
 Run the file ‘1_4_Adaptation to reality.py’, we tried to adapt the tracking to a wider and more realistic table tennis match, and obviously, some issues raised:
 1. Under more complicated lighting and background colors, the accuracy of detection cannot be guaranteed.
 2. It is not possible to detect players in the game environment, while the detection of rackets and players is also of great value for possible analysis.
