@@ -61,10 +61,10 @@ Here we use the yolov5 model to achieve video detection, and when asked to ident
 
 '3_3_detect_classes.py' is in the case that we want to detect person, racket and ball in ordre to the possibility of a more comprehensive analysis.
 
-## demo
+## 4. demo
 We provided the code for making demo here (from detect images to video), please run 4_make_demo.py if needed.
 
-## train
+## 5. train
 As we said. yolov5 model regonise rarely the pingpong ball and we would like to train the yolo model to better recognize table tennis. However, We have encountered some difficulties with the original data of the training model. Hence, we assume that we can start part of the code with the labeled data, but it is not completed and is being continuously updated.
 
 '5_1_voc_lab.py' is to transfes xml data to txt for the labeled data,'5_2_train_test_spllit.py ' is to set training conditions.
