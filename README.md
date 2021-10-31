@@ -39,7 +39,7 @@
 ## Prepare dataset
 Please download the video file from the following link after running 0_prepare_dataset.py and put it in this path:  
 
-'../dataset/test/videos/' (please payattention to the path of the floder of youlov5)
+'../dataset/test/videos/' (you need to pay attention to the path of the floder of youlov5)
 
 link:
 https://drive.google.com/drive/folders/14szmzVKyERyuCk3bkHPh1rVtuXtgg4IM?usp=sharing
