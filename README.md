@@ -54,7 +54,7 @@ Run the file ‘1_1_Color_tracking .py’ to see that, in the game environment, 
  
 -Hough circle tracking
 Run the file ‘1_2_Hough circle tracking.py’ to see that, in the game environment, the method of Hough circle tracking is less precise and powerful comparing with the first way. Approximately 38% of the coordinates of the ball's position can be correctly detected, then we also record the coordinates of ball position and movement direction in each frame.
- 
+ ![image]( https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo2.gif)
  
 -Creation of database
 Run the file ‘1_3_Creation of database.py’ to create a database in the format of CSV to contain all the information that we’ve recorded above to facilitate our possible analysis.
