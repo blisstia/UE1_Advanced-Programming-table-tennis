@@ -81,7 +81,7 @@ Here we use the yolov5 model to achieve video detection, and when asked to ident
   
 '3_2_detect_onlyball.py' is in the case of only detect the pingpong ball, but we can see that ping pong balls are recognized very rarely and yolov5 model could impove the recognsition if we'd like to optimise our detect results.
 <div align=center>
-  <img src="https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo3.gif">
+  <img src="https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo4.gif">
 </div>
   
 '3_3_detect_classes.py' is in the case that we want to detect person, racket and ball in ordre to the possibility of a more comprehensive analysis.
