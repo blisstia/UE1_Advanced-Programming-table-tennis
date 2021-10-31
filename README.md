@@ -61,6 +61,7 @@ Run the file ‘1_3_Creation of database.py’ to create a database in the forma
 Run the file ‘1_4_Adaptation to reality.py’, we tried to adapt the tracking to a wider and more realistic table tennis match, and obviously, some issues raised:
 1. Under more complicated lighting and background colors, the accuracy of detection cannot be guaranteed.
 2. It is not possible to detect players in the game environment, while the detection of rackets and players is also of great value for possible analysis.
+
 Therefore, we need to improve our project to improve these two problems.
 
 
