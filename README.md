@@ -100,4 +100,5 @@ As we said. yolov5 model regonise rarely the pingpong ball and we would like to 
 The problem here is still the manually marked file. Maybe lablimg(Software for manually identifying table tennis) is helpful here, however, due to the huge manual processing and marking work we've done it here temporarily.
 
 
-
+References:  
+GitHub. 2021. GitHub - ultralytics/yolov5: YOLOv5 🚀 in PyTorch > ONNX > CoreML > TFLite. [online] Available at: <https://github.com/ultralytics/yolov5> [Accessed 31 October 2021].
