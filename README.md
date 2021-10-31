@@ -1,6 +1,6 @@
 # UE1_Advanced-Programming-table-tennis
-├── dataset/. 
-    ├── test/. 
+├── dataset  
+    ├── test  
         ├── demo_images/. 
         ├── images/
         ├── videos/
