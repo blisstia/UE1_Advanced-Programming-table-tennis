@@ -33,11 +33,10 @@
 >├── README.md  
 
 
+### Tip: Please download and unzip the yo lov5 package first, then put all the python files into the yolov5 folder to run.
 
 
-# Tip: Please download and unzip the yo lov5 package first, then put all the python files into the yolov5 folder to run.
-
-# Prepare data set
+## Prepare data set
 Please download the video file from the following link after running 0_prepare_dataset.py and put it in this path:
 ./dataset/test/videos/
 
