@@ -17,11 +17,11 @@
 
 ...  
 
->├── 0_prepare_dataset.py
->├── 1_1prepare_dataset.py 
->├── 1_2prepare_dataset.py  
->├── 1_3prepare_dataset.py 
->├── 1_4prepare_dataset.py  
+>├── 0_prepare_dataset.py  
+>├── 1_1_color tracking .py  
+>├── 1_2_hough circle tracking.py  
+>├── 1_3_creation of database.py  
+>├── 1_4_adaptation to reality.py   
 >├── 2_extract_images.py  
 >├── 3_1_detect_all.py  
 >├── 3_2_detect_onlyball.py  
