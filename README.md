@@ -50,7 +50,7 @@ This project started by realizing the tracking mission under ideal condition. We
 
 -Color tracking
 Run the file ‘1_1_Color_tracking .py’ to see that, in the game environment, color tracking can almost completely identify where are the ball and the table. At the same time, we record the coordinates of ball position and movement direction in each frame.
- 
+ ![image](https://github.com/blisstia/UE1_Advanced-Programming-table-tennis/blob/main/Documents/demo1.gif)
  
 -Hough circle tracking
 Run the file ‘1_2_Hough circle tracking.py’ to see that, in the game environment, the method of Hough circle tracking is less precise and powerful comparing with the first way. Approximately 38% of the coordinates of the ball's position can be correctly detected, then we also record the coordinates of ball position and movement direction in each frame.
