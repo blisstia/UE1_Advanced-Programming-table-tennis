@@ -91,6 +91,7 @@ Here we use the yolov5 model to achieve video detection, and when asked to ident
   
 ## 4. demo
 We provided the code for making demo here (from detect images to video), please run 4_make_demo.py if needed.
+Please note that we manually selected 300 pictures from the 'image' folder and put them in the 'demo_images' folder to make videos to save time due to limitations of computer performance.
 
 ## 5. train
 As we said. yolov5 model regonise rarely the pingpong ball and we would like to train this model to better recognize table tennis. However, We have encountered some difficulties with the original data of the training model. Hence, we assume that we can start part of the code with the labeled data, but it is not completed and is being continuously updated.
