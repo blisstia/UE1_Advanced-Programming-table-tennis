@@ -33,7 +33,7 @@
 >├── README.md  
 
 
-### Tip: Please download and unzip the yo lov5 package first, then put all the python files into the yolov5 folder to run.
+### Tip: Please download and unzip the yolov5 package first, then put all the python files into the yolov5 folder to run.
 
 
 ## Prepare dataset
